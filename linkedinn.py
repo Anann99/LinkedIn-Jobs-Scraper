@@ -26,8 +26,8 @@ driver.get('https://www.linkedin.com/login')
 time.sleep(2)
 
 # User Credentials
-user_name = 'anannya.mishra.ug20@nsut.ac.in'
-password = '1234567Am!'
+user_name = 'anannya@truefoundry.com'
+password = '!mA0987654321'
 driver.find_element(By.XPATH, '//*[@id="username"]').send_keys(user_name)
 driver.find_element(By.XPATH, '//*[@id="password"]').send_keys(password)
 time.sleep(1)
